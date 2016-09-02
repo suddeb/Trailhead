@@ -1,0 +1,12 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <head>
+            <title></title>
+            <apex:stylesheet value="{!URLFOR($Resource.SLDS203,'assets/style/salesforce-lightning-design-system-vf.css')}"/>
+        </head>
+        
+        <body>
+        
+        </body>
+    </html>
+</apex:page>
