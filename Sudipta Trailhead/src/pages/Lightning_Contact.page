@@ -21,14 +21,17 @@
                 <div class="slds-page-header" role="banner">
                     <!--  LAYOUT GRID -->
                     <div class="slds-grid">
-                        <!--  GRID COL -->
-                        <div class="slds-col">
-                            <!--  HEADING AREA -->
-                            <p class="slds-text-heading--label">Contacts</p>
-                            <h1 class="slds-text-heading--medium">My Contacts</h1>
-                            <!-- / HEADING AREA -->
+                        <div class="slds-media slds-media--center">
+                            <div class="slds-media__figure">
+                                <svg aria-hidden="true" class="slds-icon slds-icon-standard-opportunity">
+                                    <use xlink:href="{!URLFOR($Resource.SLDS203, '/assets/icons/standard-sprite/svg/symbols.svg#account')}"></use>
+                                </svg>
+                            </div>
+                            <div class="slds-media__body">
+                                <p class="slds-page-header__title" title="All Accounts">All Accounts</p>
+                                <p class="page-header__info">Showing Accounts</p>
+                            </div>
                         </div>
-                        <!--  / GRID COL -->
                     </div>
                     <!--  /LAYOUT GRID -->
                 </div>
